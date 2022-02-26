@@ -1,0 +1,42 @@
+.circle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border: solid #14444424 2px;
+}
+
+.container {
+    margin: 25px;
+    height: 500px;
+    width: 500px;
+    float: left;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    /*outline: dashed 1px rgb(129, 198, 241);*/
+    background-color: rgb(240, 241, 246);
+}
+
+#parentdiv {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(240, 241, 246);
+    border-radius: 150px;
+    margin: 100px;
+    border: solid 2px rgb(226, 226, 234);
+    box-shadow: rgb(240, 241, 246);
+}
+.parent-div-circle{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    top: 84px;
+    border: solid 2px rgb(226, 226, 234);
+    left: 90px;
+    z-index: 1;
+}
+
