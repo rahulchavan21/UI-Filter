@@ -1,3 +1,9 @@
+# Node install
+Install node if not present on machine from [Node download](https://nodejs.org/en/download/)
+
+# Initial setup 
+Run `npm install` from root directory
+
 # BubbleFilter
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.

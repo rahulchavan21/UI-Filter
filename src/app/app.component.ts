@@ -66,18 +66,21 @@ export class AppComponent implements OnInit {
     this._filterService.getinnerFilter().subscribe((data) => {
       this.subFilters = data;
       if (this.outerFilterSelected.length > 0) {
-        this.subFilters = this.getInncerFilter(this.subFilters as SubFilter[]);
+        this.subFilters = this.getInnerFilter(this.subFilters as SubFilter[]);
       }
       var allInner = document.getElementsByClassName('inner');
       while (allInner[0]) {
         allInner[0].parentNode != null ? allInner[0].parentNode.removeChild(allInner[0]) : "";
       }
-      console.log(this.subFilters);
+      this.innerFilterSelected = [];
+      const listView = document.getElementById("filterDataSet");
+      listView!= null ? listView.innerHTML = "" : "";
+      //console.log(this.subFilters);
       this.renderFiltersUI(16, 100, this.subFilters);
     });
   }
 
-  getInncerFilter(subFilters: SubFilter[]) {
+  getInnerFilter(subFilters: SubFilter[]) {
     //This can be handled by backend API
     let newInnerFilters: SubFilter[] = [];
     for (let i = 0; i < subFilters.length; i++) {
@@ -118,7 +121,7 @@ export class AppComponent implements OnInit {
         event.setAttribute("selected", "true");
         this.proccessFilterList();
       } else {
-        this.innerFilterSelected = this.outerFilterSelected.filter(obj => obj !== filterSelected.name);
+        this.innerFilterSelected = this.innerFilterSelected.filter(obj => obj !== filterSelected.name);
         event.classList.remove("filter-selected");
         event.setAttribute("selected", "false");
         this.proccessFilterList();
@@ -158,6 +161,7 @@ export class AppComponent implements OnInit {
         var unique = listToShow.filter(function (elem, index, self) {
           return index === self.indexOf(elem);
         })
+        //This can be handled with separate angular component and pass list to show
         const listView = document.getElementById("filterDataSet");
         listView!= null ? listView.innerHTML = "" : "";
         for(let dataSet = 0; dataSet < unique.length; dataSet++){
@@ -166,7 +170,7 @@ export class AppComponent implements OnInit {
           listElm.classList.add("data-set");
           listView?.appendChild(listElm);
         }
-        console.log(unique);
+        //console.log(unique);
         return unique;
     });
   }

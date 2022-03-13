@@ -1,0 +1,44 @@
+[
+    {
+        "name": "inner1",
+        "weight": 1,
+        "type": 2,
+        "mainFilter" : ["outer1"]
+    },
+    {
+        "name": "inner2",
+        "weight": 2,
+        "type": 2,
+        "mainFilter" : ["outer2","outer1"]
+    },
+    {
+        "name": "inner3",
+        "weight": 3,
+        "type": 2,
+        "mainFilter" : ["outer3","outer5"]
+    },
+    {
+        "name": "inner4",
+        "weight": 4,
+        "type": 2,
+        "mainFilter" : ["outer4","outer1"]
+    },
+    {
+        "name": "inner5",
+        "weight": 5,
+        "type": 2,
+        "mainFilter" : ["outer5","outer2"]
+    },
+    {
+        "name": "inner6",
+        "weight": 6,
+        "type": 2,
+        "mainFilter" : ["outer6"]
+    },
+    {
+        "name": "inner7",
+        "weight": 7,
+        "type": 2,
+        "mainFilter" : ["outer3","outer7","outer1"]
+    }
+]

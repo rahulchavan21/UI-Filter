@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+.filter {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100px;
+    border: solid 2px rgb(226, 226, 234);
+    text-align: justify;
+    font-size: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+}
+.filter-selected{
+    background-color: darkseagreen;
+}
+.filter-title{
+    top: 25%;
+    position: absolute;
+    left: 25%;
+}
+.inside-filter{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100px;
+    border: solid 2px rgb(226, 226, 234);
+    text-align: justify;
+    font-size: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+}
+.data-set{
+    position: relative;
+    width: 80%;
+    background-color: #00807d;
+    border: solid 2px rgb(226, 226, 234);
+    text-align: center;
+    margin: auto;
+    top: 10px;
+    padding: 5px;
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "name": "outer1",
+        "weight": 1,
+        "type": 1
+    },
+    {
+        "name": "outer2",
+        "weight": 2,
+        "type": 1
+    },
+    {
+        "name": "outer3",
+        "weight": 3,
+        "type": 1
+    },
+    {
+        "name": "outer4",
+        "weight": 4,
+        "type": 1
+    },
+    {
+        "name": "outer5",
+        "weight": 5,
+        "type": 1
+    },
+    {
+        "name": "outer6",
+        "weight": 6,
+        "type": 1
+    },
+    {
+        "name": "outer7",
+        "weight": 7,
+        "type": 1
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "name": "data1",
+        "weight": 1,
+        "innerFilter": ["inner1","inner7"],
+        "outerFilter": ["outer1","outer5"]
+    },
+    {
+        "name": "data2",
+        "weight": 1,
+        "innerFilter": ["inner2","inner4"],
+        "outerFilter": ["outer1","outer4","outer7"]
+    },
+    {
+        "name": "data3",
+        "weight": 1,
+        "innerFilter": ["inner3","inner5"],
+        "outerFilter": ["outer2"]
+    },
+    {
+        "name": "data4",
+        "weight": 1,
+        "innerFilter": ["inner1"],
+        "outerFilter": ["outer3"]
+    },
+    {
+        "name": "data5",
+        "weight": 1,
+        "innerFilter": ["inner4"],
+        "outerFilter": ["outer1"]
+    },
+    {
+        "name": "data6",
+        "weight": 1,
+        "innerFilter": ["inner6"],
+        "outerFilter": ["outer6"]
+    },
+    {
+        "name": "data7",
+        "weight": 1,
+        "innerFilter": ["inner7"],
+        "outerFilter": ["outer7"]
+    },
+    {
+        "name": "data8",
+        "weight": 1,
+        "innerFilter": ["inner3"],
+        "outerFilter": ["outer7"]
+    },
+    {
+        "name": "data9",
+        "weight": 1,
+        "innerFilter": ["inner2"],
+        "outerFilter": ["outer4"]
+    },
+    {
+        "name": "data10",
+        "weight": 1,
+        "innerFilter": ["inner6"],
+        "outerFilter": ["outer1"]
+    },
+    {
+        "name": "data11",
+        "weight": 1,
+        "innerFilter": ["inner3"],
+        "outerFilter": ["outer3"]
+    },
+    {
+        "name": "data12",
+        "weight": 1,
+        "innerFilter": ["inner5"],
+        "outerFilter": ["outer1"]
+    },
+    {
+        "name": "data13",
+        "weight": 1,
+        "innerFilter": ["inner7"],
+        "outerFilter": ["outer2"]
+    },
+    {
+        "name": "data14",
+        "weight": 1,
+        "innerFilter": ["inner4"],
+        "outerFilter": ["outer6"]
+    },
+    {
+        "name": "data15",
+        "weight": 1,
+        "innerFilter": ["inner3"],
+        "outerFilter": ["outer4"]
+    },
+    {
+        "name": "data16",
+        "weight": 1,
+        "innerFilter": ["inner2"],
+        "outerFilter": ["outer5"]
+    },
+    {
+        "name": "data17",
+        "weight": 1,
+        "innerFilter": ["inner3"],
+        "outerFilter": ["outer1"]
+    },
+    {
+        "name": "data18",
+        "weight": 1,
+        "innerFilter": ["inner6"],
+        "outerFilter": ["outer7"]
+    },
+    {
+        "name": "data19",
+        "weight": 1,
+        "innerFilter": ["inner7"],
+        "outerFilter": ["outer7"]
+    },
+    {
+        "name": "data20",
+        "weight": 1,
+        "innerFilter": ["inner3"],
+        "outerFilter": ["outer5"]
+    }
+]
